@@ -12,7 +12,7 @@
   },
   "rewrites": [
     {
-      "source": "/svc/api/:path*",
+      "source": "/api/:path*",
       "destination": {
         "service": "backend"
       }

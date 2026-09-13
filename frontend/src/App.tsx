@@ -52,7 +52,7 @@ type ReportData = {
 type UserProfile = { name: string; email: string; password?: string; language: Language; script: 'Auto' | 'Devanagari' | 'Latin'; voiceInput: boolean; tts: boolean; largeText: boolean; highContrast: boolean; reducedMotion: boolean; notifications: boolean };
 type HistoryItem = { id: string; date: string; summary: string; language: string; risk: string; status: string };
 
-const API_BASE = '/svc';
+const API_BASE = '';
 const HISTORY_KEY = 'bhashalife_history_v3';
 const USER_KEY = 'bhashalife_user_v3';
 const AUTH_KEY = 'bhashalife_auth_v3';
