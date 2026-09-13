@@ -41,8 +41,8 @@ app.add_middleware(
 # UPLOADS
 # ==============================================================
 
-UPLOAD_DIR = Path("uploads")
-UPLOAD_DIR.mkdir(exist_ok=True)
+UPLOAD_DIR = Path("/tmp/bhashalife_uploads")
+UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
 
 # ==============================================================
