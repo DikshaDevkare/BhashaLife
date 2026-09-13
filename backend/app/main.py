@@ -84,6 +84,9 @@ def root():
 
 @app.get("/health")
 def health():
+    @app.get("/api/health")
+    def api_health():
+     return {"status": "ok"}
     return {
         "status": "healthy",
         "service": "bhashalife-backend",
